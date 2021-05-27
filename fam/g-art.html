@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/sanitize.css/2.0.0/sanitize.min.css"
+    />
+    <link rel="stylesheet" href="./src/style/style.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+        <!-- lightBOX -->
+        <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css"
+        rel="stylesheet"
+      />
+
+    <title>FAM -Art Gallery-</title>
+  </head>
+  <body>
+    <canvas id="smoke"></canvas>
+    <!-- header -->
+    <header class="l_header">
+        <button class="l_button md_hamb_nav-button" id="js-navButton" aria-controls="global-nav" aria-expanded="false">
+          <span class="md_hamb_nav-line"></span>
+        </button>
+        <div class="md_hamb_nav-drawer">
+          <nav>
+              <h3>Gallery</h3>
+            <ul>
+              <li>
+                <a href="g-pickup.html"
+                  ><span>Pickup Artist</span><span>４人の大画家</span></a
+                >
+              </li>
+              <li>
+                <a href="g-art.html"
+                    ><span>Art Gallery</span><span>イチオシの絵画</span></a
+                  ></a
+                >
+              </li>
+              <li>
+                <a href="g-christian.html"
+                  ><span>Christian Painting</span><span>キリスト絵画</span></a
+                >
+              </li>
+            </ul>
+            <h3>Art MAP</h3>
+            <ul>
+              <li>
+                <a href="m-virtual.html"
+                  ><span>Virtual</span><span>おうちで美術館</span></a
+                >
+              </li>
+              <li>
+                <a href="m-real.html"
+                  ><span>Real</span><span>おすすめ美術館</span></a
+                >
+              </li>
+            </ul>
+            <ul>
+              <li>
+                  <a href="index.html"><span>HOME</span><span>TOPページへ</span></a>
+                </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+  
+    <section class="svg-item_ttl">
+      <div class="svg-wrap">
+        <svg
+          class="svg_item"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 286 97.3"
+          style="enable-background:new 0 0 286 97.3;"
+          xml:space="preserve"
+        >
+          <g>
+            <path
+              class="st1"
+              d="M57,66.3c-2.6,3.4-6.1,5.9-10.7,7.6c-4.6,1.7-9.7,2.6-15.5,2.6c-6,0-11.2-1.4-15.8-4.1
+c-4.6-2.7-8.1-6.6-10.6-11.6S0.6,49.9,0.5,43.2v-5.6c0-10.7,2.6-19.1,7.7-25.2c5.1-6,12.3-9.1,21.5-9.1c7.9,0,14.2,2,18.8,5.9
+c4.7,3.9,7.5,9.6,8.4,16.9H44.9c-1.4-8.6-6.3-12.8-14.9-12.8c-5.5,0-9.7,2-12.6,6s-4.4,9.8-4.5,17.5v5.5c0,7.7,1.6,13.6,4.9,17.9
+c3.2,4.2,7.7,6.4,13.5,6.4c6.3,0,10.8-1.4,13.5-4.3V48.4H30.1V39h27V66.3z"
+            />
+            <path
+              class="st1"
+              d="M95,75.5c-0.5-1-1-2.7-1.4-4.9c-3.8,3.9-8.4,5.9-13.9,5.9c-5.3,0-9.6-1.5-13-4.5c-3.4-3-5-6.8-5-11.2
+c0-5.6,2.1-10,6.3-13c4.2-3,10.2-4.5,17.9-4.5h7.3v-3.5c0-2.7-0.8-4.9-2.3-6.6c-1.5-1.6-3.9-2.5-7-2.5c-2.7,0-4.9,0.7-6.6,2
+c-1.7,1.4-2.6,3.1-2.6,5.2H62.9c0-2.9,1-5.6,2.9-8.1c1.9-2.5,4.5-4.5,7.8-5.9c3.3-1.4,7-2.1,11.1-2.1c6.2,0,11.1,1.6,14.8,4.7
+c3.7,3.1,5.6,7.5,5.7,13.1v23.8c0,4.8,0.7,8.5,2,11.4v0.8H95z M82,67c2.3,0,4.5-0.6,6.6-1.7c2.1-1.1,3.6-2.7,4.7-4.6v-10h-6.4
+c-4.4,0-7.7,0.8-9.9,2.3c-2.2,1.5-3.3,3.7-3.3,6.5c0,2.3,0.8,4.1,2.3,5.4C77.4,66.3,79.5,67,82,67z"
+            />
+            <path class="st1" d="M126.2,75.5h-11.9v-75h11.9V75.5z" />
+            <path class="st1" d="M145.7,75.5h-11.9v-75h11.9V75.5z" />
+            <path
+              class="st1"
+              d="M177.9,76.5c-7.5,0-13.6-2.4-18.3-7.1c-4.7-4.7-7-11-7-18.9V49c0-5.3,1-10,3.1-14.1c2-4.2,4.9-7.4,8.6-9.7
+c3.7-2.3,7.8-3.5,12.3-3.5c7.2,0,12.8,2.3,16.7,6.9c3.9,4.6,5.9,11.1,5.9,19.5v4.8h-34.5c0.4,4.4,1.8,7.8,4.4,10.4
+c2.6,2.5,5.8,3.8,9.6,3.8c5.4,0,9.9-2.2,13.3-6.6l6.4,6.1c-2.1,3.2-4.9,5.6-8.5,7.3C186.3,75.6,182.3,76.5,177.9,76.5z M176.5,31.2
+c-3.3,0-5.9,1.1-7.9,3.4c-2,2.3-3.3,5.5-3.8,9.5h22.6v-0.9c-0.3-4-1.3-7-3.2-9C182.4,32.2,179.8,31.2,176.5,31.2z"
+            />
+            <path
+              class="st1"
+              d="M234,33.5c-1.6-0.3-3.2-0.4-4.8-0.4c-5.4,0-9.1,2.1-11,6.2v36.1h-11.9V22.7h11.3l0.3,5.9
+c2.9-4.6,6.8-6.9,11.9-6.9c1.7,0,3.1,0.2,4.2,0.7L234,33.5z"
+            />
+            <path
+              class="st1"
+              d="M261.9,58.5l10.7-35.8h12.6l-21,60.8c-3.2,8.9-8.7,13.3-16.4,13.3c-1.7,0-3.6-0.3-5.7-0.9v-9.2l2.2,0.1
+c3,0,5.2-0.5,6.8-1.6c1.5-1.1,2.7-2.9,3.6-5.5l1.7-4.5L238,22.7h12.8L261.9,58.5z"
+            />
+          </g>
+        </svg>
+      </div>
+      <span class="md_content_ttl">
+        <h3>Art Gallery</h3>
+      </span>
+    </section>
+
+    <!-- モーダルウィンドウ　黒透過の背景 -->
+    <div class="l_overlay" id="overlay"></div>
+
+    <!-- モーダルウィンドウ　コンテンツ -->
+    <!-- モナリザ　modal1 -->
+    <div class="l_modal-window" data-id="modal1">
+      <div class="l_modal_item">
+        <span>
+            <a href="./img/pg/1449px-Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg" data-lightbox="roadtrip">
+          <img
+            src="./img/pg/1449px-Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg"
+            alt="モナリザ"
+            class="md_modal_img"
+          />
+          </a>
+          <p class="md_gallery-cp__link">
+            “
+            <a
+              href="https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg"
+            >
+              Mona Lisa, by Leonardo da Vinci, from C2RMF retouched</a
+            >” <br />by
+            <a href="https://commons.wikimedia.org/wiki/User:OSX">OSX</a>
+            Licensed under パブリック・ドメイン via<a
+              href="https://commons.wikimedia.org/wiki/"
+              >ウィキメディア・コモンズ</a
+            >
+          </p>
+        </span>
+        <span class="l_modal_text">
+          <p class="art-title">モナ・リザ</p>
+          <p class="art-point">概要</p>
+          <p class="md_article_small">
+            1503〜1506年制作されたと考えられている、イタリアの巨匠レオナルド・ダ・ヴィンチが描いた油絵。<br />
+            世界でもっとも知られた、もっとも見られた、もっとも書かれた、もっとも歌われた、もっともパロディ作品が作られた美術作品と言われている。<br />
+            しばしば「謎」と表現される画題の不確かさ、スケールの大きな画面構成、立体描写の繊細さ、だまし絵めいた雰囲気など、様々な点において斬新であった。
+          </p>
+          <p class="art-point">モデル</p>
+          <p class="md_article_small">
+            伝記作家の著書より「レオナルドは、フランチェスコ・デル・ジョコンドから妻モナ・リザ（リザ・デル・ジョコンド）の肖像画制作の依頼を受けた」という記述が元になっている。<br />
+            デル・ジョコンド一家の新居引っ越しと次男アドレアの出産祝いだったと考えられている。<br />
+          </p>
+          <p class="art-point">モナ・リザの微笑</p>
+          <p class="md_article_small">
+            ダビンチの生きた時代のヨーロッパでは、キリスト教に権力が集中していた時代。笑うことは卑しい人間の行う振る舞い、または精神が錯乱した異常者の行いとして侮辱され、誰もが笑顔を隠しながら生活をしていた時代であった。
+          </p>
+          <div class="md_close_wrap js-close">
+            <span class="md_close"></span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <!-- オーフェリア　modal2 -->
+    <div class="l_modal-window" data-id="modal2">
+      <div class="l_modal_item">
+        <span>
+            <a href="./img/pg/1588px-John_Everett_Millais_-_Ophelia_-_Google_Art_Project.jpg" data-lightbox="roadtrip">
+          <img
+            src="./img/pg/1588px-John_Everett_Millais_-_Ophelia_-_Google_Art_Project.jpg"
+            alt="オーフィリア"
+            class="md_modal_img_side"
+          />
+          </a>
+          <p class="md_gallery-cp__link">
+            “
+            <a
+              href="https://commons.wikimedia.org/wiki/File:John_Everett_Millais_-_Ophelia_-_Google_Art_Project.jpg"
+            >
+              John Everett Millais - Ophelia - Google Art Project</a
+            >” <br />by
+            <a href="https://commons.wikimedia.org/wiki/User:OSX">OSX</a>
+            Licensed under パブリック・ドメイン via<a
+              href="https://commons.wikimedia.org/wiki/"
+              >ウィキメディア・コモンズ</a
+            >
+          </p>
+        </span>
+        <span class="l_modal_text">
+          <p class="art-title">オーフィリア</p>
+          <p class="art-point">概要</p>
+          <p class="md_article_small">
+            1851-1852年に制作されたジョン・エヴァレット・ミレーによる絵画。<br />
+            描かれているオーフィリアとはシェイクスピアの戯曲「ハムレット」の登場人物であり、彼女が川に溺れてしまう前、歌を口ずさんでいる姿を描いている。
+          </p>
+          <p class="md_article_small">
+            「（前略）すてきな花輪を、垂れた枝にかけようと、柳によじ登ったとたん、意地の悪い枝が折れ、花輪もろとも、まっさかさまに、涙の川に落ちました。裾が大きく広がって、人魚のようにしばらく体を浮かせて―――そのあいだ、あの子は古い小唄を口ずさみ、自分の不幸が分からぬ様子―――まるで水の中で暮らす妖精のように。でも、それも長くは続かず、服が水を吸って重くなり、哀れ、あの子を美しい歌から、泥まみれの死の底へ引きずり下ろしたのです。」<br />
+            （
+            参考：シェイクスピア『新訳ハムレット』河合祥一郎訳、角川文庫、2002年より
+            ）
+          </p>
+          <div class="md_close_wrap js-close">
+            <span class="md_close"></span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <!-- バベルの塔　modal3 -->
+    <div class="l_modal-window" data-id="modal3">
+      <div class="l_modal_item">
+        <span>
+            <a href="./img/pg/2952px-Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project_-_edited.jpg" data-lightbox="roadtrip">
+          <img
+            src="./img/pg/2952px-Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project_-_edited.jpg"
+            alt="バベルの塔"
+            class="md_modal_img_side"
+          />
+            </a>
+          <p class="md_gallery-cp__link">
+            “<a
+              href="https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project_-_edited.jpg"
+            >
+              Pieter Bruegel the Elder - The Tower of Babel (Vienna) - Google
+              Art Project - edited</a
+            >” <br />by<a href="https://commons.wikimedia.org/wiki/User:OSX"
+              >OSX</a
+            >Licensed under パブリック・ドメイン via<a
+              href="https://commons.wikimedia.org/wiki/"
+              >ウィキメディア・コモンズ</a
+            >
+          </p>
+        </span>
+        <span class="l_modal_text">
+          <p class="art-title">バベルの塔</p>
+          <p class="art-point">概要</p>
+          <p class="md_article_small">
+            1563年頃にピーテル・ブリューゲルに描かれた。<br />
+            旧約聖書の「創世記」に登場する巨大な塔。<br />
+            正確には「バベルの塔」という表現は聖書には現れず、「街とその塔」やヤンに「街」と表される。バベルとは「神の門」を表すが、一方で聖書によるとヘブライ語の「balal（ごちゃ混ぜ、混乱）」から来ているとされる
+          </p>
+          <p class="art-point">バベルの塔の物語</p>
+          <p class="md_article_small">
+            聖書に書かれているバベルの塔の物語では、もともと地球上の人々は同じ言語を話す一つの民族であったとされていた。<br />
+            東方に移動しながら生活し、ある土地にたどり着いた人々は「我々の街と、天まで届くほどの高い塔を作ろう」と、自分たちの力を示すための名をあげようとする。<br />
+            その様子を見た神は、人々が神の力を脅かすのではと危惧する。その原因が全ての人が同じ言葉を使う民族だからと考えた。<br />
+            そして神は、もともとひとつだった言語をバラバラにし、お互いを理解できなくなった人々は散り散りとなり、街づくりも中止になってしまう。<br />
+            一説では、人々が大洪水を引き起こした神への復讐のために塔を建手たのでは、と考えられている。<br />
+            参考：https://honcierge.jp/articles/shelf_story/7175
+          </p>
+          <div class="md_close_wrap js-close">
+            <span class="md_close"></span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <!-- 夢　modal4 -->
+    <div class="l_modal-window" data-id="modal4">
+      <div class="l_modal_item">
+        <span>
+            <a href="./img/pg/1599px-Henri_Rousseau_-_Il_sogno.jpg" data-lightbox="roadtrip">
+          <img
+            src="./img/pg/1599px-Henri_Rousseau_-_Il_sogno.jpg"
+            alt="夢"
+            class="md_modal_img_side"
+          />
+          </a>
+          <p class="md_gallery-cp__link">
+            “<a
+              href="https://commons.wikimedia.org/wiki/File:Henri_Rousseau_-_Il_sogno.jpg"
+            >
+              Henri Rousseau - Il sogno</a
+            >” <br />by<a href="https://commons.wikimedia.org/wiki/User:OSX"
+              >OSX</a
+            >Licensed under パブリック・ドメイン via<a
+              href="https://commons.wikimedia.org/wiki/"
+              >ウィキメディア・コモンズ</a
+            >
+          </p>
+        </span>
+        <span class="l_modal_text">
+          <p class="art-title">夢</p>
+          <p class="art-point">概要</p>
+          <p class="md_article_small">
+            1910年　アンリ・ルソーが最後に完成した作品。６ft８inch×９ft９inch（約２m×３m）と大きな画角サイズで制作された。<br />
+            ルソーの初期の諸作品は否定的な受け取られ方をしていた。しかしある評論家が、こう述べる。<br />
+            「この絵は美を放射しているし、それは議論の余地はない。私は、今年は誰も笑わないであろうと信じる。」
+          </p>
+          <p class="art-point">添えられた詩</p>
+          <p class="md_article_small">
+            ルソーは、見る者の中には絵を理解しない者もいるのではと、それに添える詩を書いた。<br />
+            <br />
+            ー 夢のための銘刻 ー<br />
+            美しい夢のなかのヤドヴィガは、<br />
+            やさしく眠りにおち、<br />
+            善意の魔法使い（ヘビ）が奏でる、<br />
+            リード楽器の音が聞こえる。<br />
+            月が川（または花）、<br />
+            樹に映るにつれ、<br />
+            野生のヘビは楽器の楽しくなる音に<br />
+            耳を貸す。
+          </p>
+          <div class="md_close_wrap js-close">
+            <span class="md_close"></span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <!-- 死の島　modal5 -->
+    <div class="l_modal-window" data-id="modal5">
+      <div class="l_modal_item">
+        <span>
+            <a href="./img/pg/Arnold_Bocklin_-_Die_Toteninsel_II_(Metropolitan_Museum_of_Art).jpg" data-lightbox="roadtrip">
+          <img
+            src="./img/pg/Arnold_Bocklin_-_Die_Toteninsel_II_(Metropolitan_Museum_of_Art).jpg"
+            alt="死の島"
+            class="md_modal_img_side"
+          />
+          </a>
+          <p class="md_gallery-cp__link">
+            “
+            <a
+              href="https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Arnold_B%C3%B6cklin_-_Die_Toteninsel_II_(Metropolitan_Museum_of_Art).jpg"
+            >
+              Arnold Böcklin - Die Toteninsel II (Metropolitan Museum of Art)</a
+            >” <br />by
+            <a href="https://commons.wikimedia.org/wiki/User:OSX">OSX</a>
+            Licensed under パブリック・ドメイン via<a
+              href="https://commons.wikimedia.org/wiki/"
+              >ウィキメディア・コモンズ</a
+            >
+          </p>
+          <a href="./img/pg/1920px-Arnold_Böcklin_-_Die_Toteninsel_V_(Museum_der_bildenden_Künste_Leipzig).jpg" data-lightbox="roadtrip">
+          <img
+            src="./img/pg/1920px-Arnold_Böcklin_-_Die_Toteninsel_V_(Museum_der_bildenden_Künste_Leipzig).jpg"
+            alt="５枚目の死の島"
+            class="md_modal_img_side"
+          />
+          </a>
+          <p class="md_gallery-cp__link">
+            “
+            <a
+              href="https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project_-_edited.jpg"
+            >
+              Pieter Bruegel the Elder - The Tower of Babel (Vienna) - Google
+              Art Project - edited</a
+            >” <br />by
+            <a href="https://commons.wikimedia.org/wiki/User:OSX">OSX</a>
+            Licensed under パブリック・ドメイン via<a
+              href="https://commons.wikimedia.org/wiki/"
+              >ウィキメディア・コモンズ</a
+            >
+          </p>
+        </span>
+        <span class="l_modal_text">
+          <p class="art-title">死の島</p>
+          <p class="art-pointo">概要</p>
+          <p class="md_article_small">
+            1880年に制作された、ベックリンの代表作。<br />
+            ベックリン自身はこの絵の意味について何の説明もしていないが、「夢のような絵。誰かにドアをノックされたら驚き慌てるような静謐さを必ずともなって」と語っている。
+          </p>
+          <p class="art-point">5枚の死の島</p>
+          <p class="md_article_small">
+            1枚目：パトロンのために書いたもの<br />
+            2枚目：その絵を書いている最中にアトリエを訪ねたマリー・ベルナーという女性が「夢のようなイメージ」と感動。ベルナのために、ベックリンがひとまわり小さな絵を描いたもの<br />
+            3枚目：取引のあった画商のために書かれたもの。1933年に売りに出され、ベックリンの信奉者として知られるアドルフ・ヒトラーが入手。<br />
+            4枚目：経済的な理由に迫られて1884年に描かれる。第二次世界大戦の爆撃で焼失しており、白黒の写真しか残されていない。<br />
+            5枚目：ライプツィヒ美術館の依頼で1886年に描かれ、今もそこに展示されている。この絵だけ、船の上に立つ白い服を着た人物がお辞儀をしている。
+          </p>
+          <div class="md_close_wrap js-close">
+            <span class="md_close"></span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <!-- アテナイの学堂　modal6 -->
+    <div class="l_modal-window" data-id="modal6">
+      <div class="l_modal_item">
+        <span>
+            <a href="./img/pg/2795px-Raffael_058.jpg" data-lightbox="roadtrip">
+          <img
+            src="./img/pg/2795px-Raffael_058.jpg"
+            alt="アテナイの学堂"
+            class="md_modal_img_side"
+          />
+          </a>
+          <p class="md_gallery-cp__link">
+            “
+            <a
+              href="https://commons.wikimedia.org/wiki/File:Edgar_Germain_Hilaire_Degas_018.jpg"
+            >
+              Raffael 058</a
+            >” <br />by
+            <a href="https://commons.wikimedia.org/wiki/File:Raffael_058.jpg"
+              >OSX</a
+            >
+            Licensed under パブリック・ドメイン via<a
+              href="https://commons.wikimedia.org/wiki/"
+              >ウィキメディア・コモンズ</a
+            >
+          </p>
+        </span>
+        <span class="l_modal_text">
+          <p class="art-title">アテナイの学堂</p>
+          <p class="art-point">概要</p>
+          <p class="md_article_small">
+            1509-1510年　ルネサンス期のイタリアの画家ラファエロによって描かれた
+          </p>
+          <p class="art-pointo">モデル</p>
+          <p class="md_article_small">
+            この絵に書かれている人物は、有名な古代ギリシアの哲学者たちでる。しかしラファエロははっきりと誰を書いたと言っていなかったので、絵の中に書かれている人物が誰か正確に言い当てることは難しい。<br />
+            絵の中の哲学者、科学者が誰なのかを読み解いてもらうための全員分の仕掛けを作っていたはずだが、それを記録として残していなかったことが問題を悪化させた。
+          </p>
+          <p class="art-point">登場人物</p>
+          <p class="md_article_small">
+            この中にはソクラテスやピタゴラスなどの有名な人物が登場しており、モデルとしてミケランジェロやレオナルド・ダ・ヴィンチ、またラファエロ自身も描かれている。
+          </p>
+          <div class="md_close_wrap js-close">
+            <span class="md_close"></span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <!-- エトワール　modal7 -->
+    <div class="l_modal-window" data-id="modal7">
+      <div class="l_modal_item">
+        <span>
+            <a href="./img/pg/1509px-Edgar_Germain_Hilaire_Degas_018.jpg" data-lightbox="roadtrip">
+          <img
+            src="./img/pg/1509px-Edgar_Germain_Hilaire_Degas_018.jpg"
+            alt="エトワール"
+            class="md_modal_img"
+          />
+          </a>
+          <p class="md_gallery-cp__link">
+            “
+            <a
+              href="https://commons.wikimedia.org/wiki/File:Edgar_Germain_Hilaire_Degas_018.jpg"
+            >
+              Edgar Germain Hilaire Degas 018</a
+            >” <br />by
+            <a href="https://commons.wikimedia.org/wiki/User:OSX">OSX</a>
+            Licensed under パブリック・ドメイン via<a
+              href="https://commons.wikimedia.org/wiki/"
+              >ウィキメディア・コモンズ</a
+            >
+          </p>
+        </span>
+        <span class="l_modal_text">
+          <p class="art-title">エトワール</p>
+          <p class="art-point">概要</p>
+          <p class="md_article_small">
+            1878年頃にフランスの画家、エドガー・ドガによって描かれた。
+          </p>
+          <p class="art-point">バレリーナ</p>
+          <p class="md_article_small">
+            現代では華やかなイメージを持つバレリーナ。<br />
+            しかし作者のドガが生きた時代のバレリーナは、娼婦と同列に見られ、彼女たちは貧しい生活から這い上がるためにパトロンを探すのに必死であった。<br />
+            舞台上に舞うエトワールが描かれた美しい作品だが、本来は見えないはずの舞台奥に立つ黒い服を着た男こそが、少女を買ったパトロンである。
+          </p>
+          <div class="md_close_wrap js-close">
+            <span class="md_close"></span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <!-- 真珠の耳飾りの少女　modal8 -->
+    <div class="l_modal-window" data-id="modal8">
+      <div class="l_modal_item">
+        <span>
+            <a href="./img/pg/Johannes_Vermeer_(1632-1675)_-_The_Girl_With_The_Pearl_Earring_(1665).jpg" data-lightbox="roadtrip">
+          <img
+            src="./img/pg/Johannes_Vermeer_(1632-1675)_-_The_Girl_With_The_Pearl_Earring_(1665).jpg"
+            alt="真珠の耳飾りの少女"
+            class="md_modal_img"
+          />
+          </a>
+          <p class="md_gallery-cp__link">
+            “
+            <a
+              href="https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Johannes_Vermeer_(1632-1675)_-_The_Girl_With_The_Pearl_Earring_(1665).jpg"
+            >
+              Johannes Vermeer (1632-1675) - The Girl With The Pearl Earring
+              (1665)</a
+            >” <br />by
+            <a href="https://commons.wikimedia.org/wiki/File:Raffael_058.jpg"
+              >OSX</a
+            >
+            Licensed under パブリック・ドメイン via<a
+              href="https://commons.wikimedia.org/wiki/"
+              >ウィキメディア・コモンズ</a
+            >
+          </p>
+        </span>
+        <span class="l_modal_text">
+          <p class="art-title">真珠の耳飾りの少女</p>
+          <p class="art-point">概要</p>
+          <p class="md_article_small">
+            ヨハネス・フェルメールによって書かれた。制作年は1665-1666年と推定されている。
+          </p>
+          <p class="art-point">モデル</p>
+          <p class="md_article_small">
+            このモデルには様々な説があり、フェルメールの娘マーリアとする意見のほか、妻、恋人、または作者の全くの創作などとも言われているが、真相は不明。
+          </p>
+          <div class="md_close_wrap js-close">
+            <span class="md_close"></span>
+          </div>
+        </span>
+      </div>
+    </div>
+
+    <!-- モーダルウィンドウ　各ボタン -->
+    <!-- <main class="l_content block"> -->
+    <main class="l_up_block">
+      <section class="l_grid-content">
+        <div class="md_gallary_item">
+          <img src="./img/pg/monalisa.jpg" alt="モナリザ" />
+          <div class="md_gallary_item-links">
+            <div class="md_gallery_link js-open" data-id="1">
+              <img src="./img/artstory-icon.svg" alt="詳しく" />
+              <span>History</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="md_gallary_item">
+          <img src="./img/pg/ophelia.jpg" alt="オーフェリア" />
+          <div class="md_gallary_item-links">
+            <div class="md_gallery_link js-open" data-id="2">
+              <img src="./img/artstory-icon.svg" alt="詳しく" />
+              <span>History</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="md_gallary_item">
+          <img src="./img/pg/babel.jpg" alt="バベルの塔" />
+          <div class="md_gallary_item-links">
+            <div class="md_gallery_link js-open" data-id="3">
+              <img src="./img/artstory-icon.svg" alt="詳しく" />
+              <span>History</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="md_gallary_item">
+          <img src="./img/pg/dream.jpg" alt="夢" />
+          <div class="md_gallary_item-links">
+            <div class="md_gallery_link js-open" data-id="4">
+              <img src="./img/artstory-icon.svg" alt="詳しく" />
+              <span>History</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="md_gallary_item">
+          <img src="./img/pg/death.jpg" alt="死の島" />
+          <div class="md_gallary_item-links">
+            <div class="md_gallery_link js-open" data-id="5">
+              <img src="./img/artstory-icon.svg" alt="詳しく" />
+              <span>History</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="md_gallary_item">
+          <img src="./img/pg/atenai.jpg" alt="アテナイの学堂" />
+          <div class="md_gallary_item-links">
+            <div class="md_gallery_link js-open" data-id="6">
+              <img src="./img/artstory-icon.svg" alt="詳しく" />
+              <span>History</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="md_gallary_item">
+          <img src="./img/pg/étoile.jpg" alt="エトワール" />
+          <div class="md_gallary_item-links">
+            <div class="md_gallery_link js-open" data-id="7">
+              <img src="./img/artstory-icon.svg" alt="詳しく" />
+              <span>History</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="md_gallary_item">
+          <img src="./img/pg/perl.jpg" alt="真珠の耳飾りの少女" />
+          <div class="md_gallary_item-links">
+            <div class="md_gallery_link js-open" data-id="8">
+              <img src="./img/artstory-icon.svg" alt="詳しく" />
+              <span>History</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="l_footer">
+      <div>&copy;F Art Museum</div>
+    </footer>
+
+    <!-- three.js smoke -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r120/three.min.js"></script>
+    <script src="./src/js/smoke.js"></script>
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./src/js/main.js"></script>
+
+            <!-- lightBOX -->
+            <script>
+              lightbox.option({
+                resizeDuration: 200,
+                wrapAround: true,
+                fitImagesInViewport: true,
+                imageFadeDuration: 600
+              });
+            </script>
+            <script
+              src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"
+              type="text/javascript"
+            ></script>
+  
+  </body>
+</html>
