@@ -1,7 +1,5 @@
 $margin-bottom: 300px;
 
-///////////////////////////////////////////////
-
 .l_button {
   position: relative;
   text-decoration: none;
@@ -59,7 +57,6 @@ $margin-bottom: 300px;
   position: fixed;
   top: 130px;
   right: -35px;
-  // bottom: 0;
   transform: rotate(-90deg);
   color: $h-color;
   font-size: 15px;
@@ -75,7 +72,7 @@ $margin-bottom: 300px;
   position: fixed;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.7);
   z-index: 10;
   cursor: pointer;
 }
@@ -83,7 +80,7 @@ $margin-bottom: 300px;
 .l_modal-window {
   display: none;
   width: 60%;
-  height: 70%;
+  height: 80%;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -106,7 +103,7 @@ $margin-bottom: 300px;
 .l_modal_text {
   width: 40%;
 }
-// 表示中はスクロールさせん
+
 .no-scroll {
   overflow: hidden;
 }
@@ -125,9 +122,10 @@ $margin-bottom: 300px;
 
 .l_grid-content {
   @include widthSize(500);
-  margin: 15% auto 0;
+  margin: 200px auto 0;
   display: grid;
-  grid-template-columns: 20% 20% 20% 20%;
+  grid-template-columns: 150px 150px 150px 150px;
+  grid-template-rows: 250px 250px;
   gap: 10px;
 }
 .l_bcad {
@@ -166,6 +164,11 @@ $margin-bottom: 300px;
 /////////////////////////////////////////////// map
 .l_map_virtual {
   margin-bottom: $margin-bottom;
+
+  &_text {
+    width: 500px;
+    margin: 0 auto;
+  }
 }
 .l_btn {
   margin-top: 15px;
@@ -193,7 +196,6 @@ $margin-bottom: 300px;
 }
 .l_table_map {
   margin-left: 0;
-  // margin-bottom: 10%;
 }
 .l_btn_wrap {
   width: 40%;

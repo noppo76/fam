@@ -161,8 +161,5 @@ class Smoke {
     window.addEventListener("resize", this.onResize);
   }
 }
-
-/* app.js */
-
 const smoke = new Smoke();
 smoke.update();

@@ -1,7 +1,5 @@
 $font-small: 12px;
 
-/////////////////////////////////////////////// hamburger button
-
 .md_hamb_nav-button {
   position: absolute;
   top: 0;
@@ -50,7 +48,6 @@ $font-small: 12px;
   }
 }
 
-// ドロワー
 .md_hamb_nav-drawer {
   position: fixed;
   right: 0;
@@ -190,7 +187,6 @@ $font-small: 12px;
 }
 .active {
   content: "";
-  // display: none;
   background: $h-color;
   width: 10px;
   height: 10px;
@@ -274,15 +270,14 @@ $font-small: 12px;
   margin-left: 0;
 }
 .md_btn {
-  @include fontSize(10);
-  @include widthSize(150);
-  @include heightSize(30);
-  display: block;
+  font-size: 16px;
+  width: 200px;
+  height: 50px;
+  display: inline-block;
   background-color: #000;
   color: #fff;
   text-align: center;
   line-height: 50px;
-  padding-top: 1%;
   border-radius: 50px;
   > img {
     margin-left: 8%;
@@ -381,7 +376,6 @@ $font-small: 12px;
 
 .md_gallary_item {
   position: relative;
-  width: 150px;
   margin: 0 auto;
 
   &-links {
@@ -393,8 +387,9 @@ $font-small: 12px;
   }
 
   > img {
-    width: 150px;
-    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }
 }
 .md_gallary_item::before {
@@ -412,7 +407,7 @@ $font-small: 12px;
 
 // 縦おき
 .md_img {
-  width: 600px;
+  width: 450px;
   object-fit: contain;
   margin: 10px;
   // 横置き
@@ -425,11 +420,11 @@ $font-small: 12px;
 
 // 縦おき
 .md_modal_img {
-  @include widthSize(200);
+  width: 300px;
 }
 // 横置き
 .md_modal_img_side {
-  @include widthSize(230);
+  width: 400px;
 }
 
 .md_bcad {
@@ -483,8 +478,9 @@ $font-small: 12px;
 
 /////////////////////////////////////////////// scroll view
 .md_frame {
-  width: 90%;
-  height: 55vh;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
   border: 1px solid #1a1a1a;
   overflow: hidden;
   > img:hover {
@@ -540,10 +536,11 @@ $font-small: 12px;
 }
 
 .md_img__pickup:nth-child(1) {
-  background: url(../../img/gogh/856px-VanGogh_1887_Selbstbildnis.jpg) no-repeat
+  background: url(/img/gogh/512px-VanGogh_1887_Selbstbildnis.jpeg) no-repeat
     center;
   &:hover {
-    background: url(../../img/gogh/Gogh4.jpg) no-repeat center;
+    background: url(../../img/gogh/512px-Vincent_Willem_van_Gogh_128.jpeg)
+      no-repeat center;
     background-size: cover;
     &::after {
       content: "Gogh";
@@ -555,10 +552,11 @@ $font-small: 12px;
   }
 }
 .md_img__pickup:nth-child(2) {
-  background: url(../../img/goya/873px-Vicente_López_Portaña_-_el_pintor_Francisco_de_Goya.jpg)
+  background: url(/img/goya/512px-Vicente_Lopez_Portana_-_el_pintor_Francisco_de_Goya.jpeg)
     no-repeat center;
   &:hover {
-    background: url(../../img/goya/1920px-El_Aquelarre.jpg) no-repeat center;
+    background: url(/img/goya/1024px-El_Tres_de_Mayo_by_Francisco_de_Goya_from_Prado_in_Google_Earth.jpeg)
+      no-repeat center;
     background-size: cover;
     &::after {
       content: "Goya";
@@ -570,10 +568,10 @@ $font-small: 12px;
   }
 }
 .md_img__pickup:nth-child(3) {
-  background: url(../../img/klimt/Klimt.jpg) no-repeat top;
+  background: url(/img/klimt/512px-Klimt.jpeg) no-repeat top;
   background-size: auto;
   &:hover {
-    background: url(../../img/klimt/2153px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg)
+    background: url(/img/klimt/597px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpeg)
       no-repeat center;
     background-size: cover;
     &::after {
@@ -586,10 +584,11 @@ $font-small: 12px;
   }
 }
 .md_img__pickup:nth-child(4) {
-  background: url(../../img/picasso/918px-Pablo_picasso_1.jpg) no-repeat center;
+  background: url(/img/picasso/512px-Pablo_picasso_1.jpeg) no-repeat center;
   background-size: cover;
   &:hover {
-    background: url(../../img/picasso/Mural_del_Gernika.jpg) no-repeat center;
+    background: url(/img/picasso/579px-Les_Demoiselles_dAvignon.jpeg) no-repeat
+      center;
     background-size: cover;
     &::after {
       content: "Picasso";
