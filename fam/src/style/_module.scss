@@ -499,22 +499,20 @@ $font-small: 12px;
 
 .md_pickup_item {
   max-width: 1200px;
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 15% auto 0;
+  margin: 20% auto 0;
 }
 .md_img__pickup {
   width: 30%;
-  height: 600px;
+  height: 500px;
   margin: 1%;
   position: relative;
   transition: all 1s ease;
 
   &:hover {
     width: 700px;
-    // transition: all 1s;
   }
 }
 .md_img__pickup a {
