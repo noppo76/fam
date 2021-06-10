@@ -1,0 +1,203 @@
+$margin-bottom: 300px;
+
+.l_button {
+  position: relative;
+  text-decoration: none;
+  appearance: none;
+  border: 1px solid $h-color;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.l_section_ttl {
+  text-align: center;
+  height: 100vh;
+  position: relative;
+
+  &_container {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+}
+
+.l_content {
+  @include widthSize(700);
+  margin: 0 auto;
+  margin-bottom: $margin-bottom;
+  &__p {
+    margin-top: 10%;
+  }
+  &__g {
+    display: block;
+    margin-left: 30px;
+    margin-bottom: $margin-bottom;
+  }
+  &__m {
+    @include heightSize(400);
+    display: block;
+    position: absolute;
+    right: 30px;
+    text-align: right;
+    margin-bottom: $margin-bottom;
+  }
+}
+.block {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s, transform 1s;
+}
+.fadein {
+  opacity: 1;
+  transform: translateY(0);
+}
+.l_footer {
+  position: fixed;
+  top: 130px;
+  right: -35px;
+  transform: rotate(-90deg);
+  color: $h-color;
+  font-size: 15px;
+}
+
+/////////////////////////////////////////////// gallery
+
+// モーダルウィンドウ　黒透過の背景
+.l_overlay {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+  cursor: pointer;
+}
+// モダールウィンドウ中身のレイアウト
+.l_modal-window {
+  display: none;
+  width: 60%;
+  height: 80%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 20;
+  & span {
+    display: block;
+  }
+}
+.l_modal_item {
+  display: flex;
+  justify-content: center;
+
+  & span {
+    display: block;
+    margin: 20px auto;
+  }
+}
+.l_modal_text {
+  width: 40%;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+////////////////////////////////////////////////////
+
+.l_up_block {
+  display: none;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.l_grid-content {
+  @include widthSize(500);
+  margin: 200px auto 0;
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px;
+  grid-template-rows: 250px 250px;
+  gap: 10px;
+}
+.l_bcad {
+  @include widthSize(200);
+  position: relative;
+  text-align: center;
+  margin: auto 10px;
+  &:last-child {
+    margin-right: 5%;
+  }
+}
+.l_gallery {
+  @include widthSize(100);
+  margin: 0 auto;
+
+  // l_gallery__block1　横並びテキスト左側
+  &__block1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-bottom: $margin-bottom;
+  }
+  // l_gallery__block2 中央揃え
+  &__block2 {
+    text-align: center;
+    margin-bottom: $margin-bottom;
+  }
+  // l_gallery__block3　横並びテキスト右側
+  &__block3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: $margin-bottom;
+  }
+}
+/////////////////////////////////////////////// map
+.l_map_virtual {
+  margin-bottom: $margin-bottom;
+
+  &_text {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+.l_btn {
+  margin-top: 15px;
+}
+.l_map {
+  @include widthSize(600);
+  margin: auto;
+  margin-bottom: $margin-bottom;
+
+  &_real {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 140px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 30px;
+  }
+  &_content {
+    margin: auto 0;
+  }
+}
+/////////////////////////////////////////////// table
+.l_table {
+  margin: 0 auto;
+}
+.l_table_map {
+  margin-left: 0;
+}
+.l_btn_wrap {
+  width: 40%;
+  height: 40%;
+}
